@@ -1,15 +1,15 @@
 import './style.css';
-function Card() {
+function Card(props) {
   return (
     <>
     <div className="card">
       <div className="img1">
         <img
-          src="images/img1.jpg"
+          src={props.image}
           style={{ height: 210, width: 314, borderRadius: 12 }}
         />
       </div>
-      <p className="card1">How To Make GUI In Java With Example</p>
+    <p className="card1">{props.title}</p>
       <hr />
       <div className="pic">
         <img

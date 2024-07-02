@@ -1,14 +1,17 @@
 import './App.css';
-import Header from './components/Header'
-import Card from './components/Card'
-import Footer from './components/Footer';
-import Blog from './components/Blog';
+//  import Header from './components/Header'
+//  import Card from './components/Card'
+//  import Footer from './components/Footer';
+//  import Blog from './components/Blog';
+import ProductTab from './components/ProductTab';
+
 function App() {
   return(
     <div>
-      <Header/>
+      {/* <Header/>
       <Blog/> 
-      <Footer/>
+      <Footer/>  */}
+      <ProductTab/>
     </div>
   )
 }
